@@ -9,7 +9,7 @@ function preload() {
   bg=loadImage("background.jpg")
   gameoverimg=loadImage("glitch-game-background_23-2148090006.jpg")
   batsound=loadSound("hit.mp3")
-  bouncesound=loadSound("bounce.mp3 ")
+  bouncesound=loadSound("bounce.mp3")
   gosound=loadSound("zapsplat_human_male_voice_says_game_over_001_15726.mp3")
 }
 
@@ -92,6 +92,6 @@ gameover.height=windowHeight;
 
 function randomVelocity()
 {
-  ball.setVelocity(random(-9,-4),random(-9,9))
+  ball.setVelocity(random(-12,-4),random(-12,12))
 }
 
